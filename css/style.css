@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+}
+.row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (min-width:992px){
+
+}
