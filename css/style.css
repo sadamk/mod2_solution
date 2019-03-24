@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6, p {
@@ -7,11 +7,22 @@ h1, h2, h3, h4, h5, h6, p {
 .container {
     width: 100%;
 }
-.row {
-    padding-left: 15px;
-    padding-right: 15px;
+
+div {
+    width: 33.3%;
+    float: left;
 }
 
-@media screen and (min-width:992px){
+h1 {
+    text-align: center;
+}
+
+@media (min-width:768px) and (max-width:991px){
+   .container > div {
+    width: 50%;
+   }
+   .container > div:last-child {
+       width: 100%;
+   }
 
 }
